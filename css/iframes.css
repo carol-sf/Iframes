@@ -6,6 +6,37 @@
 
 .flex {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+
+section {
+    height: 100vh;
+}
+
+h1 {
+    font-size: 28pt;
+    margin-top: 0;
+}
+
+p,
+a {
+    font-size: 14pt;
+}
+
+li {
+    padding: 2px 0;
+}
+
+section#frameNav {
+    padding: 1% 0 0 1%;
+}
+
+iframe#navegacaoIframe {
+    height: 80%;
+    width: 60%;
+}
+
+section#sec {
+    background-color: black;
 }

@@ -1,1 +1,5 @@
+clique.png:
 <a href="https://www.flaticon.com/br/icones-gratis/clique" title="clique ícones">Clique ícones criados por Freepik - Flaticon</a>
+
+gif-seta-esquerda:
+<a href="https://www.flaticon.com/free-animated-icons/arrows" title="arrows animated icons">Arrows animated icons created by Freepik - Flaticon</a>
