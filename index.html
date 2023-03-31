@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/iframes.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" id="titulo">
+            <img src="./img/logo-livro.png" alt="logo-livro">
+            Desenvolvimento web
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="naruto.html">Naruto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="centro">
+        <h2>Contribua com o seu conhecimento:</h2>
+        <iframe src="https://docs.google.com/document/d/1DFSUL-WbBMXFqn-4i96kWRf_pWeGqxYLnyt4fgFLTnk/edit" frameborder="0" height="500px" width="800px">
+            <a href="https://docs.google.com/document/d/1DFSUL-WbBMXFqn-4i96kWRf_pWeGqxYLnyt4fgFLTnk/edit">Resumo - HTML5 e CSS3</a>
+        </iframe>
+
+        <br><br><br>
+        <h2>Quando um site não permite sua incorporação através de iframes:</h2>
+        <iframe src="https://www.youtube.com/" frameborder="0">
+            <a href="https://www.youtube.com/">Google</a>
+        </iframe>
+        
+        <br><br><br>
+        <h2>Vídeo do youtube: incorporado a mão X codigo gerado pelo youtube</h2>
+        <div class="flex">
+            <div class="centro">
+                <iframe src="https://www.youtube.com/embed/eAxGt3ObQ24" frameborder="0"></iframe>
+                <p>Também é possível estilizar da maneira que quisermos</p>
+            </div>
+
+            &nbsp; &nbsp; &nbsp; &nbsp;
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eAxGt3ObQ24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <br><br><br>
+        <h2>O primeiro site que botei no ar no GItHub</h2>
+        <iframe src="https://carol-sf.github.io/Javascript-CursoemVideo/" frameborder="0" height="500px" width="800px"></iframe>
+    </main>
+    <footer>
+        <p>&copy; 2023 - by Anna Carolina</p>
+    </footer>
+</body>
+</html>
