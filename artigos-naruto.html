@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artigos Naruto</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            font-size: 10pt;
+            margin: -0.6%;
+        }
+
+        h1 {
+            font-size: 28pt;
+            margin-top: 0;
+        }
+
+        h2 {
+            margin: 30px 0 10px 0;
+            color: rgb(255, 208, 0);
+        }
+
+        article {
+            width: 800px;
+            height: 465px;
+        }
+
+        .cabecalho {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        article#topo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .imagens {
+            margin-top: 3%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .imagens img {
+            width: 100%;
+            border: 2px black solid;
+            border-radius: 15px;
+            box-shadow: 1px 1px 4px black;
+        }
+
+        #bandanas img {
+            width: 190px;
+            height: 190px;
+        }
+
+        #roupas img {
+            width: 160px;
+            height: 300px;
+            margin: -40px;
+        }
+
+        #roupas figure.foto-legenda figcaption {
+            width: 160px;
+            height: 300px;
+            margin: -40px;
+        }
+
+        figure.foto-legenda {
+            position: relative;
+        }
+
+        figure.foto-legenda figcaption {
+            position: absolute;
+            top: 0;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.4);
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 15px;
+            opacity: 0;
+            transition: opacity 1s;
+        }
+
+        figure.foto-legenda:hover figcaption {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <article id="topo">
+            <header class="cabecalho">
+                <h2>Naruto Usumaki</h2>
+                <h1>Clique sobre as áreas destacadas</h1>
+            </header>
+            <img src="./img/clique.png" alt="clique">
+        </article>
+        <article id="bandanas">
+            <header class="cabecalho">
+                <h2>Naruto Usumaki</h2>
+                <h1>Bandanas</h1>
+            </header>
+            <div class="imagens">
+                <figure class="foto-legenda">
+                    <img src="./img/naruto-bandana1.png" alt="naruto-bandana">
+                    <figcaption>
+                        <h3>Estudante na academia ninja</h3>
+                    </figcaption>
+                </figure>
+                <figure class="foto-legenda">
+                    <img src="./img/naruto-bandana2.png" alt="naruto-bandana">
+                    <figcaption>
+                        <h3>Guennin</h3>
+                    </figcaption>
+                </figure>
+                <figure class="foto-legenda">
+                    <img src="./img/naruto-bandana3.png" alt="naruto-bandana">
+                    <figcaption>
+                        <h3>Guennin treinado por um sannin</h3>
+                    </figcaption>
+                </figure>
+            </div>
+        </article>
+        <article id="olhos">
+            <header class="cabecalho">
+                <h2>Naruto Usumaki</h2>
+                <h1>Olhos</h1>
+            </header>
+            <div class="imagens">
+                <figure class="foto-legenda">
+                    <img src="./img/naruto-olhos1.png" alt="naruto-olhos">
+                    <figcaption>
+                        <h3>Modo Nove Caudas - nível 1</h3>
+                    </figcaption>
+                </figure>
+                <figure class="foto-legenda">
+                    <img src="./img/naruto-olhos2.png" alt="naruto-olhos">
+                    <figcaption>
+                        <h3>Modo Nove Caudas - nível 10</h3>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="imagens">
+                <figure class="foto-legenda">
+                    <img src="./img/naruto-olhos3.png" alt="naruto-olhos">
+                    <figcaption>
+                        <h3>Modo Sennin</h3>
+                    </figcaption>
+                </figure>
+                <figure class="foto-legenda">
+                    <img src="./img/naruto-olhos4.png" alt="naruto-olhos">
+                    <figcaption>
+                        <h3>Modo Sennin + Nove Caudas</h3>
+                    </figcaption>
+                </figure>
+            </div>
+        </article>
+        <article id="roupas">
+            <header class="cabecalho">
+                <h2>Naruto Usumaki</h2>
+                <h1>Roupas</h1>
+            </header>
+            <div class="imagens">
+                <figure class="foto-legenda">
+                    <img src="./img/naruto-roupa1.png" alt="naruto-roupa">
+                    <figcaption>
+                        <h3>Guennin</h3>
+                    </figcaption>
+                </figure>
+                <figure class="foto-legenda">
+                    <img src="./img/naruto-roupa2.png" alt="naruto-roupa">
+                    <figcaption>
+                        <h3>Guennin treinado por um sannin</h3>
+                    </figcaption>
+                </figure>
+                <figure class="foto-legenda">
+                    <img src="./img/naruto-roupa3.png" alt="naruto-roupa">
+                    <figcaption>
+                        <h3>Modo Sennin</h3>
+                    </figcaption>
+                </figure>
+                <figure class="foto-legenda">
+                    <img src="./img/naruto-roupa4.png" alt="naruto-roupa">
+                    <figcaption>
+                        <h3>Modo Nove Caudas + Sennin</h3>
+                    </figcaption>
+                </figure>
+            </div>
+        </article>
+    </main>
+</body>
+
+</html>

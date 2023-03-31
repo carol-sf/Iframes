@@ -1,0 +1,20 @@
+.imagem {
+    width: 300px;
+    height: 400px;
+    margin: 3% 0;
+}
+
+.centro {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+iframe#frame-naruto {
+    width: 800px;
+    height: 465px;
+    border: none;
+}
+
+/* map area {
+    outline: red auto 5px;
+} */

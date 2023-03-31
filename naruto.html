@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/naruto.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" id="titulo">
+            <img src="./img/logo-livro.png" alt="logo-livro">
+            Desenvolvimento web
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="naruto.html">Naruto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="centro">
+            <img src="./img/naruto-marcado.png" alt="" class="imagem" usemap="#mapa-naruto">
+            <map name="mapa-naruto">
+                <area shape="rect" coords="50,210,253,140" href="artigos-naruto.html#bandanas" target="janela">
+                <area shape="circle" coords="110,235,10" href="artigos-naruto.html#olhos" target="janela">
+                <area shape="circle" coords="195,235,10" href="artigos-naruto.html#olhos" target="janela">
+                <area shape="poly" coords="70,260, 90,340, 200,340, 220,260, 300,400, 0,400" href="artigos-naruto.html#roupas" target="janela">
+            </map>
+            <iframe src="artigos-naruto.html" name="janela" id="frame-naruto" scrolling="no"></iframe>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 - by Anna Carolina</p>
+    </footer>
+</body>
+</html>
