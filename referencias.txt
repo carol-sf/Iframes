@@ -3,3 +3,7 @@ clique.png:
 
 gif-seta-esquerda:
 <a href="https://www.flaticon.com/free-animated-icons/arrows" title="arrows animated icons">Arrows animated icons created by Freepik - Flaticon</a>
+
+fundo-celular:
+Foto de <a href="https://unsplash.com/@contentpixie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Content Pixie</a> na <a href="https://unsplash.com/pt-br/fotografias/a_boMVYTvT4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
