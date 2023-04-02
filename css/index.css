@@ -1,0 +1,50 @@
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background: url("../img/fundo-tablet.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+main {
+    margin: 5% 1%;
+}
+
+section#botoes {
+    /* display: block; */
+    text-align: right;
+}
+
+section#botoes img {
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+
+section#botoes a {
+    margin: 15px;
+    display: block;
+
+}
+
+section#botoes img.icone {
+    width: 36px;
+    padding: 7px;
+}
+
+section#botoes img#icone-home {
+    background-color: rgb(79, 165, 57);
+}
+
+section#botoes img#icone-site {
+    background-color: var(--cor-base);
+}
+
+section#botoes img:hover {
+    /* border: 2px solid rgba(255, 255, 255, 0.575); */
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.7);
+    transition: transform .3s;
+}

@@ -6,4 +6,15 @@ gif-seta-esquerda:
 
 fundo-celular:
 Foto de <a href="https://unsplash.com/@contentpixie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Content Pixie</a> na <a href="https://unsplash.com/pt-br/fotografias/a_boMVYTvT4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+fundo-tablet:
+Foto de <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Sikkema</a> na <a href="https://unsplash.com/pt-br/fotografias/4xHgz_ZllQs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
+icone-home:
+<a href="https://www.flaticon.com/free-icons/home" title="home icons">Home icons created by Freepik - Flaticon</a>
+
+icone-github:
+Imagem de <a href="https://pixabay.com/pt/users/namllasum-15727080/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6980894">Muhammad Salman</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6980894">Pixabay</a>
+
+icone-linkedin:
+Imagem de <a href="https://pixabay.com/pt/users/raphaelsilva-4702998/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2170421">Raphael Silva</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2170421">Pixabay</a>
