@@ -8,6 +8,10 @@
     font-family: sans-serif;
 }
 
+body {
+    background-color: white;
+}
+
 header {
     background-color: var(--cor-base);
     display: flex;
