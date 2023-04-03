@@ -1,21 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <style>
-        body {
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        main {
+            /* height: 380px;
+            width: 500px; */
             height: 100vh;
             width: 100vw;
             background-color: aliceblue;
+            margin: 0;
+        }
+
+        section {
+            height: 100vh;
+            padding: 3%;
+        }
+
+        section#principal {
+            background-color: blueviolet;
+        }
+
+        section#site {
+            background-color:coral;
+        }
+
+        section#redes {
+            background-color: aqua;
+        }
+
+        ::-webkit-scrollbar {
+            width: 0;
+            height: 0;
         }
     </style>
 </head>
+
 <body>
     <main>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum iure et omnis ad eaque totam qui, animi facere obcaecati accusantium, maxime nulla corrupti vitae error sed rerum? Amet, ipsa est? Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit saepe provident debitis incidunt qui aperiam ullam. Necessitatibus rerum sapiente iusto iste repellendus cumque nam nemo, provident totam impedit, natus fugiat.</p>
+        <section id="principal">
+            <h1>Trabalhando com iframes</h1>
+
+        </section>
+        <section id="site">
+            <h2>Projeto 1: iframes externos</h2>
+            <h2>Projeto 2: iframe de um arquivo interno + map</h2>
+        </section>
+        <section id="redes">
+            <h2>Entre em contato comigo</h2>
+        </section>
     </main>
 </body>
+
 </html>
