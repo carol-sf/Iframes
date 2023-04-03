@@ -18,3 +18,15 @@ Imagem de <a href="https://pixabay.com/pt/users/namllasum-15727080/?utm_source=l
 
 icone-linkedin:
 Imagem de <a href="https://pixabay.com/pt/users/raphaelsilva-4702998/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2170421">Raphael Silva</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2170421">Pixabay</a>
+
+tablet:
+Imagem de <a href="https://pixabay.com/pt/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=147691">OpenClipart-Vectors</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=147691">Pixabay</a>
+
+fundo:
+Foto de Scott Webb: https://www.pexels.com/pt-br/foto/foto-do-papel-de-parede-digital-em-forma-de-triangulo-1029624/
+
+fundo-folhas:
+Foto de NEOSiAM  2021: https://www.pexels.com/pt-br/foto/textura-transparente-colorida-de-fundo-natural-4498792/
+
+fundo-madeira:
+Foto de FWStudio: https://www.pexels.com/pt-br/foto/painel-de-madeira-marrom-131639/

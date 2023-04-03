@@ -1,32 +1,53 @@
-html {
+html, body {
     height: 100vh;
     width: 100vw;
 }
 
 body {
-    background: url("../img/fundo-tablet.jpg") no-repeat center center;
+    background: url("../img/fundo-madeira.jpg");
     background-size: cover;
 }
 
 main {
-    margin: 5% 1%;
+    position: relative;
+    height: 100vh;
+    margin: 0;
+}
+
+section#tablet {
+    height: 488px;
+    width: 631px;
+    border-radius: 45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url("../img/tablet.png") center center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
+}
+
+iframe#tela {
+    position: relative;
+    top: 11%;
+    left: 10%;
+    height: 77%;
+    width: 80%;
 }
 
 section#botoes {
-    /* display: block; */
     text-align: right;
+    padding: 1%;
 }
 
 section#botoes img {
     width: 50px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+    margin: 10px;
 }
 
 section#botoes a {
-    margin: 15px;
     display: block;
-
 }
 
 section#botoes img.icone {
@@ -35,7 +56,7 @@ section#botoes img.icone {
 }
 
 section#botoes img#icone-home {
-    background-color: rgb(79, 165, 57);
+    background-color: black;
 }
 
 section#botoes img#icone-site {
@@ -43,8 +64,7 @@ section#botoes img#icone-site {
 }
 
 section#botoes img:hover {
-    /* border: 2px solid rgba(255, 255, 255, 0.575); */
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0,0,0,0.7);
     transition: transform .3s;
-}
+} 
