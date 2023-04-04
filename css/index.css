@@ -45,6 +45,7 @@ section#incorporarFrame h1 {
 
 .grupo {
     /* background: -webkit-radial-gradient(rgb(20, 184, 196), black); */
+    /* background-color: rgba(192, 192, 192, 0.507); */
     background: -webkit-linear-gradient(rgb(20, 184, 196), black);
     border-radius: 25px;
     margin: 4% 0;
