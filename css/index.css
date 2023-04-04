@@ -1,70 +1,56 @@
-html, body {
-    height: 100vh;
-    width: 100vw;
+h1 {
+    font-size: 28pt;
+    margin-bottom: 30px;
 }
 
-body {
-    background: url("../img/fundo-madeira.jpg");
-    background-size: cover;
+h2 {
+    font-size: 24pt;
+    margin-bottom: 2%;
+    color: white;
 }
 
-main {
-    position: relative;
-    height: 100vh;
-    margin: 0;
+p, a {
+    font-size: 14pt;
 }
 
-section#tablet {
-    height: 488px;
-    width: 631px;
-    border-radius: 45px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: url("../img/tablet.png") center center;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
+ul {
+    margin: 30px 20px;
 }
 
-iframe#tela {
-    position: relative;
-    top: 11%;
-    left: 10%;
-    height: 380px;
-    width: 500px;
+li {
+    padding: 8px 0;
 }
 
-section#botoes {
-    text-align: right;
-    padding: 1%;
+iframe#navegacaoIframe {
+    width: 100%;
+    height: 80vh;
 }
 
-section#botoes img {
-    width: 50px;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
-    margin: 10px;
+section#frameNav h1 {
+    margin-top: 15%;
 }
 
-section#botoes a {
-    display: block;
+section#incorporarFrame {
+    padding-top: 5%;
 }
 
-section#botoes img.icone {
-    width: 36px;
-    padding: 7px;
+section#incorporarFrame h1 {
+    text-align: center;
 }
 
-section#botoes img#icone-home {
-    background-color: black;
+.flex {
+    display: flex;
+    justify-content: space-between;  
 }
 
-section#botoes img#icone-site {
-    background-color: var(--cor-base);
+.grupo {
+    /* background: -webkit-radial-gradient(rgb(20, 184, 196), black); */
+    background: -webkit-linear-gradient(rgb(20, 184, 196), black);
+    border-radius: 25px;
+    margin: 4% 0;
+    padding: 2% 2% 4% 2%;
 }
 
-section#botoes img:hover {
-    transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.7);
-    transition: transform .3s;
-} 
+.div-menor {
+    width: 560px;
+}
